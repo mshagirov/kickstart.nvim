@@ -103,6 +103,12 @@ vim.o.number = true
 -- You can also add relative line numbers, to help with jumping.
 vim.o.relativenumber = true
 
+-- Indentation
+vim.o.expandtab = true
+vim.o.tabstop = 2
+vim.o.softtabstop = 2
+vim.o.shiftwidth = 2
+
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.o.mouse = 'a'
 
